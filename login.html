@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login — ShopEase</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand"><a href="index.html">ShopEase</a></div>
+    </div>
+  </header>
+
+  <main class="container auth-page">
+    <div class="auth-card">
+      <h2>Login / Signup</h2>
+
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <button id="googleBtn" class="google-btn">Sign in with Google (simulate)</button>
+        <div class="muted small">(This simulates Google sign-in and stores display name locally.)</div>
+      </div>
+
+      <hr />
+
+      <div class="muted small">Or create a simple account</div>
+      <input id="signupUser" placeholder="Username (no spaces)" />
+      <input id="signupPass" type="password" placeholder="Password (min 4 chars)" />
+      <button id="btnSignup" class="btn-primary">Signup & Login</button>
+
+      <hr />
+
+      <div class="muted small">Already registered? Login below</div>
+      <input id="loginUser" placeholder="Username" />
+      <input id="loginPass" type="password" placeholder="Password" />
+      <button id="btnLogin" class="btn-primary">Login</button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2025 ShopEase — FE Product Catalog</div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
+
